@@ -1,0 +1,14 @@
+langchain
+langchain_community
+langchain_core
+langchain_openai
+langchain_huggingface
+pinecone
+sentence_transformers
+fastapi
+pypdf
+uvicorn
+rank_bm25
+langchain_groq
+boto3
+python-dotenv

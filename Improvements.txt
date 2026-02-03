@@ -1,0 +1,45 @@
+5️⃣ Evaluation Strategy Is Too Expensive
+
+Running 5 LLM evals per query is:
+
+❌ Too slow
+
+❌ Too expensive
+
+❌ Unstable
+
+Enterprise pattern:
+
+80% heuristic checks
+
+20% sampled LLM eval
+
+Async batch evaluation
+
+
+🚀 How to Push This to 9/10 (Action Plan)
+🔥 MUST DO
+
+Wrap evals with hard isolation
+
+Introduce LLMAdapter abstraction
+
+Add retrieval confidence threshold
+
+Move logs to structured async logging
+
+🔥 SHOULD DO
+
+Prompt versioning
+
+Sampling-based eval
+
+Add tracing IDs to frontend
+
+🔥 OPTIONAL (10/10)
+
+Canary prompt rollout
+
+Automatic hallucination suppression
+
+Feedback loop for retrieval tuning
