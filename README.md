@@ -49,34 +49,6 @@ Deployed as **containerized microservices**, managed via **Kubernetes Deployment
 * **API Gateway**: FastAPI + Uvicorn
 * **Cloud Ready**: AWS / GCP / Azure compatible
 
----
-
-## 📂 Project Structure
-
-```
-advanced-rag/
-│
-├── app/
-│   ├── api/              # API routes
-│   ├── rag/              # RAG pipeline (retrieval + generation)
-│   ├── loaders/          # Document loaders
-│   ├── embeddings/       # Embedding logic
-│   └── main.py           # FastAPI entry point
-│
-├── docker/
-│   └── Dockerfile
-│
-├── k8s/
-│   ├── deployment.yaml
-│   ├── service.yaml
-│   └── configmap.yamml
-│
-├── requirements.txt
-└── README.md
-```
-
----
-
 ## 🐳 Docker Setup
 
 ### Build Image
