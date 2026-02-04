@@ -4,6 +4,8 @@ A **production-ready Advanced RAG system** designed for scalable, reliable, and 
 
 This repository is suitable for **enterprise-grade AI applications**, hackathons, and production deployments.
 
+![CI](https://github.com/prajwalpatil18/Advanced-RAG-System/actions/workflows/ci.yml/badge.svg)
+
 ---
 
 ## ✨ Key Features
