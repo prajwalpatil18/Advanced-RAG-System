@@ -5,6 +5,7 @@ os.environ.setdefault(
     "AdvancedRAG/1.0 (Prajwal Patil)"
 )
 
+
 from langchain_community.document_loaders import WebBaseLoader
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_text_splitters import RecursiveCharacterTextSplitter
