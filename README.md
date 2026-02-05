@@ -2,7 +2,7 @@
 
 A **production-ready Advanced RAG system** designed for scalable, reliable, and efficient AI-powered question answering over custom documents. The project is **containerized with Docker** and **orchestrated using Kubernetes (K8s)** to support horizontal scaling and real-world workloads.
 
-This repository is suitable for **enterprise-grade AI applications**, hackathons, and production deployments.
+This repository is suitable for **enterprise-grade AI applications**, hackathons, and production deployment.
 
 ![CI](https://github.com/prajwalpatil18/Advanced-RAG-System/actions/workflows/ci.yml/badge.svg)
 
