@@ -13,5 +13,8 @@ COPY . .
 # Switch to main folder
 WORKDIR /
 
+# 5. Expose port
+EXPOSE 8000
+
 # Run the app
 CMD ["python", "main.py"]
